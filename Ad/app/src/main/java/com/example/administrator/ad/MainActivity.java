@@ -76,7 +76,8 @@ public class MainActivity extends AppCompatActivity {
                 imageButton.setImageDrawable(getResources().getDrawable(R.drawable.guanzhu_huang));
                 AlertDialog.Builder dialog = new AlertDialog.Builder(MainActivity.this);
                 dialog.setMessage("关注成功！");
-                dialog.setCancelable(false);
+                dialog.setCancelable(true);
+                dialog.show();
             }
         });
         //图片加关注的点击事件
